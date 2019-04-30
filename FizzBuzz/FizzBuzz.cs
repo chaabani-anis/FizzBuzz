@@ -4,7 +4,9 @@ namespace FizzBuzz
     {
         public string GetOutput(int i)
         {
-            return "Fizz";
+            if (i == 3)
+                return "Fizz";
+            else return "Buzz";
         }
     }
 }
